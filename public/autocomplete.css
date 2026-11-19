@@ -1,0 +1,93 @@
+/* Danadresse — suggestion dropdown (appended to <body>). */
+
+.danadresse-panel {
+	position: absolute;
+	z-index: 2147483000;
+	margin: 0;
+	padding: 4px 0;
+	list-style: none;
+	max-height: 320px;
+	overflow-y: auto;
+	background: #fff;
+	color: #1e1e1e;
+	border: 1px solid #d0d5d9;
+	border-radius: 8px;
+	box-shadow: 0 8px 24px rgba(20, 30, 40, 0.14);
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.danadresse-panel li {
+	margin: 0;
+	padding: 8px 14px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.danadresse-panel li.is-active,
+.danadresse-panel li:hover {
+	background: #eaf5f0;
+	color: #14532d;
+}
+
+.danadresse-panel li.danadresse-more::after {
+	content: "…";
+	opacity: 0.5;
+	margin-left: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.danadresse-panel {
+		background: #24262b;
+		color: #e6e6e6;
+		border-color: #3c4046;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+	}
+
+	.danadresse-panel li.is-active,
+	.danadresse-panel li:hover {
+		background: #1f3b2d;
+		color: #bff0d3;
+	}
+}
+
+/* Shortcode / block field wrapper. */
+.danadresse-field-wrap {
+	margin: 0 0 1em;
+}
+
+.danadresse-field-wrap .danadresse-label {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 600;
+}
+
+.danadresse-field-wrap .danadresse-field {
+	width: 100%;
+	max-width: 480px;
+	box-sizing: border-box;
+}
+
+/* Screen-reader-only live region. */
+.danadresse-sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+/* Admin order badge. */
+.danadresse-badge {
+	color: #1a7f5a;
+}
+
+.danadresse-badge.is-c {
+	color: #b32d2e;
+}

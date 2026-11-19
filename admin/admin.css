@@ -1,0 +1,196 @@
+/**
+ * Admin styles for Lynbro Danadresse.
+ *
+ * Only what the shared Lynbro shell does not already provide: the usage chart,
+ * the figure row, the locale list and a couple of small layout helpers that
+ * would otherwise be inline style attributes.
+ *
+ * @package LynbroDanadresse
+ */
+
+/* Onboarding card (shown while no API key is set). */
+.lynbro-danadresse-getstarted {
+  border-left: 4px solid #1a7f5a;
+}
+
+/* Inline notice inside a tab. */
+.lynbro-danadresse-notice {
+  margin: 12px 0;
+}
+
+/* Usage figures ---------------------------------------------------------- */
+.lynbro-danadresse-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 14px 0 18px;
+}
+
+.lynbro-danadresse-figure {
+  flex: 1 1 140px;
+  min-width: 140px;
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 4px;
+}
+
+.lynbro-danadresse-figure .n {
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #1a7f5a;
+  font-variant-numeric: tabular-nums;
+}
+
+.lynbro-danadresse-figure .l {
+  display: block;
+  margin-top: 4px;
+  color: #50575e;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.lynbro-danadresse-figure.is-warn .n {
+  color: #b32d2e;
+}
+
+/* 30-day column chart ---------------------------------------------------- */
+.lynbro-danadresse-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 120px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 4px;
+}
+
+.lynbro-danadresse-chart .col {
+  flex: 1 1 0;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.lynbro-danadresse-chart .bar {
+  display: block;
+  width: 100%;
+  min-height: 2px;
+  background: #dfe4e6;
+  border-radius: 2px 2px 0 0;
+}
+
+.lynbro-danadresse-chart .col.has-data .bar {
+  background: #1a7f5a;
+}
+
+/* Height is data, not decoration: set from the data-h attribute so the
+   markup carries no inline style. */
+.lynbro-danadresse-chart .bar[data-h="2"] {
+  height: 2%;
+}
+.lynbro-danadresse-chart .bar[data-h="5"] {
+  height: 5%;
+}
+.lynbro-danadresse-chart .bar[data-h="10"] {
+  height: 10%;
+}
+.lynbro-danadresse-chart .bar[data-h="15"] {
+  height: 15%;
+}
+.lynbro-danadresse-chart .bar[data-h="20"] {
+  height: 20%;
+}
+.lynbro-danadresse-chart .bar[data-h="25"] {
+  height: 25%;
+}
+.lynbro-danadresse-chart .bar[data-h="30"] {
+  height: 30%;
+}
+.lynbro-danadresse-chart .bar[data-h="35"] {
+  height: 35%;
+}
+.lynbro-danadresse-chart .bar[data-h="40"] {
+  height: 40%;
+}
+.lynbro-danadresse-chart .bar[data-h="45"] {
+  height: 45%;
+}
+.lynbro-danadresse-chart .bar[data-h="50"] {
+  height: 50%;
+}
+.lynbro-danadresse-chart .bar[data-h="55"] {
+  height: 55%;
+}
+.lynbro-danadresse-chart .bar[data-h="60"] {
+  height: 60%;
+}
+.lynbro-danadresse-chart .bar[data-h="65"] {
+  height: 65%;
+}
+.lynbro-danadresse-chart .bar[data-h="70"] {
+  height: 70%;
+}
+.lynbro-danadresse-chart .bar[data-h="75"] {
+  height: 75%;
+}
+.lynbro-danadresse-chart .bar[data-h="80"] {
+  height: 80%;
+}
+.lynbro-danadresse-chart .bar[data-h="85"] {
+  height: 85%;
+}
+.lynbro-danadresse-chart .bar[data-h="90"] {
+  height: 90%;
+}
+.lynbro-danadresse-chart .bar[data-h="95"] {
+  height: 95%;
+}
+.lynbro-danadresse-chart .bar[data-h="100"] {
+  height: 100%;
+}
+
+/* Locale chips ----------------------------------------------------------- */
+.lynbro-danadresse-locales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.lynbro-danadresse-locales code {
+  background: #f0f0f1;
+  border: 1px solid #dcdcde;
+  border-radius: 3px;
+  padding: 2px 7px;
+  font-size: 12px;
+}
+
+.lynbro-danadresse-locales code.is-active {
+  background: #1a7f5a;
+  border-color: #1a7f5a;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Lists and tables ------------------------------------------------------- */
+.lynbro-danadresse-list {
+  margin: 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.lynbro-danadresse-list li {
+  margin-bottom: 6px;
+}
+
+.lynbro-danadresse-log {
+  max-width: 780px;
+}
+
+.lynbro-danadresse-usage-table {
+  max-width: 520px;
+}

@@ -1,0 +1,1411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lynbro-danadresse 0.4.5 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: lynbro-danadresse 0.4.5\n"
+"Report-Msgid-Bugs-To: https://soge.dk\n"
+"POT-Creation-Date: 2026-11-11 15:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/about-tab.php:22
+msgid "About Lynbro Danadresse Autofill"
+msgstr ""
+
+#: admin/about-tab.php:24
+msgid ""
+"Danish customers type their address once and pick it from a list. The "
+"street, postcode and city land in the right fields, spelled the way the "
+"official register spells them — so parcels stop bouncing on a mistyped "
+"street name."
+msgstr ""
+
+#: admin/about-tab.php:27
+msgid ""
+"It works on the WooCommerce checkout and on the address field of every major "
+"form builder, through adapters that know each plugin's markup. Nothing needs "
+"to be wired up by hand."
+msgstr ""
+
+#: admin/about-tab.php:32
+msgid "How your data is handled"
+msgstr ""
+
+#: admin/about-tab.php:34
+msgid ""
+"Your API key stays on your server. It is stored as a password field, never "
+"printed back into a page, and never sent to a visitor's browser."
+msgstr ""
+
+#: admin/about-tab.php:35
+msgid ""
+"Lookups are proxied through your own site, so no visitor IP address is "
+"passed on to the address service."
+msgstr ""
+
+#: admin/about-tab.php:36
+msgid ""
+"Responses are cached only for as long as the service says they stay fresh, "
+"and never longer."
+msgstr ""
+
+#: admin/about-tab.php:37
+msgid ""
+"The problem log keeps error codes only. Addresses your customers type are "
+"never written to your database by this plugin."
+msgstr ""
+
+#: admin/about-tab.php:38
+msgid ""
+"No address data is bundled or downloaded in bulk — every suggestion is a "
+"live lookup."
+msgstr ""
+
+#: admin/about-tab.php:43
+msgid "External service"
+msgstr ""
+
+#: admin/about-tab.php:45
+msgid ""
+"This plugin talks to one service: the danadresse.dk address API "
+"(api.danadresse.dk), operated by LynBro ApS, Denmark. It receives the "
+"address text being typed — plus, when validation is on, the delivery address "
+"of an order — together with your API key, sent from your server. Without a "
+"key configured, the plugin makes no external requests at all."
+msgstr ""
+
+#: admin/about-tab.php:48
+msgid "Terms"
+msgstr ""
+
+#: admin/about-tab.php:49
+msgid "Privacy"
+msgstr ""
+
+#: admin/about-tab.php:54
+msgid "Version & links"
+msgstr ""
+
+#: admin/about-tab.php:57
+msgid "Version"
+msgstr ""
+
+#: admin/about-tab.php:61
+msgid "Address data"
+msgstr ""
+
+#: admin/about-tab.php:62
+msgid "Danish national address register (DAWA-compatible), via danadresse.dk"
+msgstr ""
+
+#: admin/about-tab.php:66
+msgid "Plugin home page"
+msgstr ""
+
+#: admin/about-tab.php:67
+msgid "danadresse.dk"
+msgstr ""
+
+#: admin/about-tab.php:68
+msgid "Lynbro"
+msgstr ""
+
+#: admin/feedback-tab.php:23
+msgid "Is it working for you?"
+msgstr ""
+
+#: admin/feedback-tab.php:25
+msgid ""
+"This plugin is free and built in Denmark. If it saved you some typing — or "
+"some bounced parcels — a short review helps other Danish shops find it."
+msgstr ""
+
+#: admin/feedback-tab.php:29
+msgid "Leave a review on WordPress.org"
+msgstr ""
+
+#: admin/feedback-tab.php:35
+msgid "Something missing or broken?"
+msgstr ""
+
+#: admin/feedback-tab.php:37
+msgid ""
+"Feature requests and bug reports are read by the people who build the "
+"plugin. Pick whichever fits — nothing is sent from your site by opening "
+"these."
+msgstr ""
+
+#: admin/feedback-tab.php:41
+msgid "Suggest a feature (public roadmap)"
+msgstr ""
+
+#: admin/feedback-tab.php:44
+msgid "Ask for help in the support forum"
+msgstr ""
+
+#: admin/feedback-tab.php:48
+msgid ""
+"For anything about your API key, quota or billing, use your danadresse.dk "
+"dashboard — that is a separate service with your account details."
+msgstr ""
+
+#: admin/feedback-tab.php:53
+msgid "Which form builder should we support next?"
+msgstr ""
+
+#: admin/feedback-tab.php:55
+msgid ""
+"Fourteen integrations ship today. If the form plugin you use is not one of "
+"them, tell us on the roadmap — adding one is usually a small job once we can "
+"see its address field."
+msgstr ""
+
+#: admin/languages-tab.php:57 admin/settings.php:123
+msgid "Languages"
+msgstr ""
+
+#: admin/languages-tab.php:59
+msgid ""
+"Everything the plugin shows — these settings screens and the suggestion list "
+"your customers see — follows the language WordPress is running in. There is "
+"nothing to set up here."
+msgstr ""
+
+#: admin/languages-tab.php:64
+msgid "Site language"
+msgstr ""
+
+#: admin/languages-tab.php:68
+msgid "Your language"
+msgstr ""
+
+#: admin/languages-tab.php:72
+msgid "Translated"
+msgstr ""
+
+#: admin/languages-tab.php:74
+msgid "Falls back to English"
+msgstr ""
+
+#: admin/languages-tab.php:86
+#, php-format
+msgid "Installed on this site (%s)"
+msgstr ""
+
+#: admin/languages-tab.php:92
+msgid ""
+"WordPress downloads translations from translate.wordpress.org and keeps them "
+"up to date for you — they are not shipped inside the plugin. Whatever is "
+"missing simply falls back to English."
+msgstr ""
+
+#: admin/languages-tab.php:103
+msgid ""
+"None yet. WordPress fetches them automatically once translations for your "
+"language are available; you can also trigger it from Dashboard → Updates."
+msgstr ""
+
+#: admin/languages-tab.php:108
+msgid ""
+"Spotted a wording that could be better in your language? Translations are "
+"community-maintained — you can improve them directly on "
+"translate.wordpress.org."
+msgstr ""
+
+#: admin/languages-tab.php:109
+msgid "Open the translation project"
+msgstr ""
+
+#: admin/log-tab.php:22 admin/settings.php:425
+msgid "Autocomplete"
+msgstr ""
+
+#: admin/log-tab.php:23 admin/settings.php:345
+msgid "Address validation"
+msgstr ""
+
+#: admin/log-tab.php:24 admin/settings.php:421
+msgid "Test lookup"
+msgstr ""
+
+#: admin/log-tab.php:25
+msgid "Address details"
+msgstr ""
+
+#: admin/log-tab.php:26 admin/log-tab.php:42
+msgid "Lookup"
+msgstr ""
+
+#: admin/log-tab.php:30
+msgid "Recent problems"
+msgstr ""
+
+#: admin/log-tab.php:32
+msgid ""
+"The last few times a lookup failed, and why. Successful lookups are not "
+"listed — you can see those as numbers on the Statistics screen."
+msgstr ""
+
+#: admin/log-tab.php:36
+msgid "Nothing to report — no failed lookups have been recorded."
+msgstr ""
+
+#: admin/log-tab.php:41
+msgid "When"
+msgstr ""
+
+#: admin/log-tab.php:43
+msgid "What happened"
+msgstr ""
+
+#: admin/log-tab.php:44
+msgid "Code"
+msgstr ""
+
+#: admin/log-tab.php:62
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: admin/log-tab.php:77
+msgid ""
+"Only the technical details are kept: time, which kind of lookup, and the "
+"error code. The address text is never stored."
+msgstr ""
+
+#: admin/settings.php:43 admin/settings.php:44
+msgid "Danadresse"
+msgstr ""
+
+#: admin/settings.php:84
+msgid "Type an address first."
+msgstr ""
+
+#: admin/settings.php:85
+msgid "Looking up…"
+msgstr ""
+
+#: admin/settings.php:86
+msgid "No suggestions returned."
+msgstr ""
+
+#: admin/settings.php:112
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/settings.php:118 lynbro-danadresse.php:82
+msgid "Settings"
+msgstr ""
+
+#: admin/settings.php:119
+msgid "Integrations"
+msgstr ""
+
+#: admin/settings.php:120
+msgid "Status"
+msgstr ""
+
+#: admin/settings.php:121 admin/settings.php:435
+msgid "Statistics"
+msgstr ""
+
+#: admin/settings.php:122 admin/settings.php:436
+msgid "Log"
+msgstr ""
+
+#: admin/settings.php:124 includes/lynbro-core/lynbro-core.php:1626
+msgid "Tools"
+msgstr ""
+
+#: admin/settings.php:125
+msgid "Feedback"
+msgstr ""
+
+#: admin/settings.php:126
+msgid "About"
+msgstr ""
+
+#: admin/settings.php:132
+msgid "Lynbro Danadresse Autofill"
+msgstr ""
+
+#: admin/settings.php:133
+msgid ""
+"Typo-tolerant Danish address autocomplete & validation that autofills "
+"WooCommerce and every major form builder — powered by danadresse.dk."
+msgstr ""
+
+#: admin/settings.php:202
+msgid "Get started in 30 seconds"
+msgstr ""
+
+#: admin/settings.php:204
+msgid ""
+"Address autofill needs a free danadresse.dk API key — 2,000 lookups every "
+"month, no card required. Create your key, then paste it in the field below "
+"and save."
+msgstr ""
+
+#: admin/settings.php:207
+msgid "Get a free API key →"
+msgstr ""
+
+#: admin/settings.php:208
+msgid "I already have an account"
+msgstr ""
+
+#: admin/settings.php:210
+msgid ""
+"Need more than 2,000 lookups a month? Larger plans are available on "
+"danadresse.dk — the plugin itself is always free."
+msgstr ""
+
+#: admin/settings.php:219
+msgid "API key"
+msgstr ""
+
+#: admin/settings.php:226
+msgid ""
+"Get a free API key (2,000 lookups/month) from your danadresse.dk dashboard. "
+"The key is stored on your server and never sent to visitors’ browsers."
+msgstr ""
+
+#: admin/settings.php:227
+msgid "Open danadresse.dk dashboard"
+msgstr ""
+
+#: admin/settings.php:233
+msgid "Suggestion detail"
+msgstr ""
+
+#: admin/settings.php:236
+msgid "Full address incl. floor/door (recommended for delivery)"
+msgstr ""
+
+#: admin/settings.php:237
+msgid "Street entrance only (no floor/door)"
+msgstr ""
+
+#: admin/settings.php:243
+msgid "Typo tolerance"
+msgstr ""
+
+#: admin/settings.php:247
+msgid "Fuzzy matching (also folds oe↔ø, aa↔å, ae↔æ)"
+msgstr ""
+
+#: admin/settings.php:253
+msgid "Max suggestions"
+msgstr ""
+
+#: admin/settings.php:262
+msgid "Minimum characters"
+msgstr ""
+
+#: admin/settings.php:267
+msgid "Lookups start after this many typed characters."
+msgstr ""
+
+#: admin/settings.php:292
+msgid "Where autofill runs"
+msgstr ""
+
+#: admin/settings.php:293
+msgid ""
+"Turn address autofill on for the plugins you use. Plugins detected as active "
+"on this site are marked. Composite address fields (WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable, EDD, GiveWP, Forminator, Everest Forms, Paid "
+"Memberships Pro) also fill postcode and city automatically."
+msgstr ""
+
+#: admin/settings.php:306
+msgid "Active on this site"
+msgstr ""
+
+#: admin/settings.php:308
+msgid "Not detected"
+msgstr ""
+
+#: admin/settings.php:315
+msgid "Enabled"
+msgstr ""
+
+#: admin/settings.php:324
+msgid "Auto-detect"
+msgstr ""
+
+#: admin/settings.php:328
+msgid ""
+"Also attach to any text field that looks like an address (by label, name or "
+"placeholder)"
+msgstr ""
+
+#: admin/settings.php:330
+msgid ""
+"Catches address fields in themes and form plugins without a dedicated "
+"adapter. Turn off if it attaches to a field it should not."
+msgstr ""
+
+#: admin/settings.php:335
+msgid "Denmark only"
+msgstr ""
+
+#: admin/settings.php:339
+msgid ""
+"Only suggest when the selected country is Denmark (or the form has no "
+"country field)"
+msgstr ""
+
+#: admin/settings.php:349
+msgid ""
+"Validate Danish delivery addresses at WooCommerce checkout (result saved on "
+"the order)"
+msgstr ""
+
+#: admin/settings.php:353
+msgid "Block checkout when the address is not recognised at all"
+msgstr ""
+
+#: admin/settings.php:355
+msgid ""
+"Validation never blocks checkout when the address service is unreachable."
+msgstr ""
+
+#: admin/settings.php:360
+msgid "Custom CSS selectors"
+msgstr ""
+
+#: admin/settings.php:366
+msgid ""
+"One CSS selector per line for any address field not covered above (e.g. a "
+"single Contact Form 7 or Elementor field). Inputs with a data-lynbro-"
+"danadresse attribute or the lynbro-danadresse-field class attach "
+"automatically."
+msgstr ""
+
+#: admin/settings.php:372
+msgid "Shortcode & block"
+msgstr ""
+
+#: admin/settings.php:375
+msgid "Or add the “Danish address field” block in the editor."
+msgstr ""
+
+#: admin/settings.php:395
+msgid "Service status"
+msgstr ""
+
+#: admin/settings.php:398
+msgid "API key configured"
+msgstr ""
+
+#: admin/settings.php:400
+msgid "No API key"
+msgstr ""
+
+#: admin/settings.php:401
+msgid "Create a free key at danadresse.dk"
+msgstr ""
+
+#: admin/settings.php:404
+msgid "Quota and plan details live in your danadresse.dk dashboard."
+msgstr ""
+
+#: admin/settings.php:405
+msgid "Open usage"
+msgstr ""
+
+#: admin/settings.php:410
+msgid "This API key is blocked"
+msgstr ""
+
+#: admin/settings.php:411
+msgid ""
+"The key was used from more devices than your plan allows. Only the account "
+"owner can unlock it, from the danadresse.dk dashboard — for security it "
+"cannot be done from here."
+msgstr ""
+
+#: admin/settings.php:413
+msgid "Unlock in danadresse.dk dashboard"
+msgstr ""
+
+#: admin/settings.php:415
+msgid ""
+"In the dashboard: Indstillinger → nøgler → “Skift enhed / Lås op”. Lookups "
+"resume on the next request."
+msgstr ""
+
+#: admin/settings.php:422
+msgid ""
+"Runs a live request through your API key — a quick way to confirm everything "
+"works."
+msgstr ""
+
+#: admin/settings.php:424
+msgid "e.g. Rådhuspladsen 1"
+msgstr ""
+
+#: admin/settings.php:426
+msgid "Validate (datavask)"
+msgstr ""
+
+#: admin/settings.php:432
+msgid "Usage"
+msgstr ""
+
+#: admin/settings.php:433
+msgid ""
+"Day-by-day lookup counts recorded on this site are on the Statistics screen; "
+"anything that failed is on the Log screen."
+msgstr ""
+
+#: admin/statistics-tab.php:58
+msgid "Usage over the last 30 days"
+msgstr ""
+
+#: admin/statistics-tab.php:60
+msgid ""
+"Counted on this site, so you can see your own consumption without opening "
+"the danadresse.dk dashboard. One lookup is one request to the service; "
+"cached repeats are free and are not counted."
+msgstr ""
+
+#: admin/statistics-tab.php:66
+msgid "lookups total"
+msgstr ""
+
+#: admin/statistics-tab.php:70
+msgid "autocomplete"
+msgstr ""
+
+#: admin/statistics-tab.php:74
+msgid "validations"
+msgstr ""
+
+#: admin/statistics-tab.php:78
+msgid "service errors"
+msgstr ""
+
+#: admin/statistics-tab.php:84
+#, php-format
+msgid "Daily lookups over the last 30 days. %s in total."
+msgstr ""
+
+#: admin/statistics-tab.php:95
+#, php-format
+msgid "%1$s — %2$s autocomplete, %3$s validations"
+msgstr ""
+
+#: admin/statistics-tab.php:110
+#, php-format
+msgid "%1$s to %2$s"
+msgstr ""
+
+#: admin/statistics-tab.php:117
+msgid ""
+"No lookups recorded yet. Numbers appear here as soon as someone starts "
+"typing in an address field."
+msgstr ""
+
+#: admin/statistics-tab.php:122
+msgid "Your plan"
+msgstr ""
+
+#: admin/statistics-tab.php:123
+msgid ""
+"Quota, plan and invoices live in your danadresse.dk dashboard — this plugin "
+"only counts what it sends from this site."
+msgstr ""
+
+#: admin/statistics-tab.php:125
+msgid "Open usage on danadresse.dk"
+msgstr ""
+
+#: includes/ajax.php:59 includes/ajax.php:91
+msgid "Too many lookups. Please wait a moment."
+msgstr ""
+
+#: includes/ajax.php:105 includes/lynbro-core/lynbro-core.php:764
+#: includes/lynbro-core/lynbro-core.php:1534
+#: includes/lynbro-core/lynbro-core.php:1739
+#: includes/lynbro-core/lynbro-core.php:1765
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/api.php:94
+msgid ""
+"No API key configured. Add your free danadresse.dk key in the plugin "
+"settings."
+msgstr ""
+
+#: includes/api.php:106 includes/api.php:190
+msgid ""
+"The address service quota was reached. Lookups will resume automatically."
+msgstr ""
+
+#: includes/api.php:140
+msgid "Could not reach the address service. Please try again."
+msgstr ""
+
+#: includes/api.php:170
+msgid ""
+"The address service blocked this API key: it was used from more devices than "
+"your plan allows. Unlock it in your danadresse.dk dashboard under "
+"Indstillinger → nøgler, then try again."
+msgstr ""
+
+#: includes/api.php:174 includes/api.php:188
+msgid ""
+"The address service rejected the API key. Check the key in the plugin "
+"settings."
+msgstr ""
+
+#: includes/api.php:177
+msgid ""
+"Your danadresse.dk account is suspended. Please check your account at "
+"danadresse.dk."
+msgstr ""
+
+#: includes/api.php:180
+msgid ""
+"This feature is not available on a sandbox (test) key. Use a live key from "
+"your danadresse.dk dashboard."
+msgstr ""
+
+#: includes/api.php:184
+msgid ""
+"The address service rate limit was reached. Lookups will resume "
+"automatically."
+msgstr ""
+
+#: includes/api.php:192
+msgid ""
+"The address service is temporarily unavailable. Lookups will resume "
+"automatically."
+msgstr ""
+
+#: includes/api.php:194
+msgid "The address service returned an error."
+msgstr ""
+
+#: includes/api.php:456
+msgid "Empty address."
+msgstr ""
+
+#: includes/assets.php:112
+msgid "No matching address"
+msgstr ""
+
+#: includes/assets.php:114
+#, php-format
+msgid "%d suggestions available"
+msgstr ""
+
+#: includes/block.php:30 public/block-editor.js:21
+msgid "Danish address field"
+msgstr ""
+
+#: includes/block.php:31 public/block-editor.js:22
+msgid "A text field with typo-tolerant Danish address autocomplete."
+msgstr ""
+
+#: includes/block.php:73 includes/forms.php:35 includes/forms.php:77
+#: public/block-editor.js:67
+msgid "Address"
+msgstr ""
+
+#: includes/block.php:76 includes/forms.php:36 includes/forms.php:78
+#: public/block-editor.js:71
+msgid "Start typing a Danish address…"
+msgstr ""
+
+#: includes/integrations.php:31
+msgid "WooCommerce checkout & account"
+msgstr ""
+
+#: includes/integrations.php:32
+msgid ""
+"Classic checkout, the Checkout Block and My Account — fills street, postcode "
+"and city."
+msgstr ""
+
+#: includes/integrations.php:40
+msgid "WPForms"
+msgstr ""
+
+#: includes/integrations.php:41
+msgid "The WPForms Address field — fills address line, postcode and city."
+msgstr ""
+
+#: includes/integrations.php:49
+msgid "Gravity Forms"
+msgstr ""
+
+#: includes/integrations.php:50
+msgid "The Gravity Forms Address field — fills street, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:58
+msgid "Fluent Forms"
+msgstr ""
+
+#: includes/integrations.php:59
+msgid "The Fluent Forms Address field — fills address line, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:67
+msgid "Formidable Forms"
+msgstr ""
+
+#: includes/integrations.php:68
+msgid "The Formidable Address field — fills line, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:76
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/integrations.php:77
+msgid "The EDD checkout billing address — fills street, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:85
+msgid "GiveWP donations"
+msgstr ""
+
+#: includes/integrations.php:86
+msgid "The GiveWP donation billing address — fills street, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:94
+msgid "Forminator"
+msgstr ""
+
+#: includes/integrations.php:95
+msgid "The Forminator Address field — fills address line, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:103
+msgid "Everest Forms"
+msgstr ""
+
+#: includes/integrations.php:104
+msgid "The Everest Forms Address field — fills address line, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:112
+msgid "Paid Memberships Pro"
+msgstr ""
+
+#: includes/integrations.php:113
+msgid "The membership checkout billing address — fills street, city and ZIP."
+msgstr ""
+
+#: includes/integrations.php:121
+msgid "Ultimate Member"
+msgstr ""
+
+#: includes/integrations.php:122
+msgid "The Ultimate Member profile/register address field."
+msgstr ""
+
+#: includes/integrations.php:130
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/integrations.php:131 includes/integrations.php:140
+#: includes/integrations.php:149
+msgid ""
+"Auto-detects an address text field, or target it with a CSS selector below."
+msgstr ""
+
+#: includes/integrations.php:139
+msgid "Ninja Forms"
+msgstr ""
+
+#: includes/integrations.php:148
+msgid "Elementor Forms"
+msgstr ""
+
+#: includes/log.php:82
+msgid "No API key configured"
+msgstr ""
+
+#: includes/log.php:83
+msgid "API key rejected"
+msgstr ""
+
+#: includes/log.php:84
+msgid "Key blocked — unlock it in the danadresse.dk dashboard"
+msgstr ""
+
+#: includes/log.php:85
+msgid "Account suspended"
+msgstr ""
+
+#: includes/log.php:86
+msgid "Not available on a test key"
+msgstr ""
+
+#: includes/log.php:87
+msgid "Rate limit reached (per minute)"
+msgstr ""
+
+#: includes/log.php:88
+msgid "Quota reached"
+msgstr ""
+
+#: includes/log.php:89
+msgid "Could not reach the service"
+msgstr ""
+
+#: includes/log.php:90
+msgid "Unknown endpoint"
+msgstr ""
+
+#: includes/log.php:91
+msgid "Address not found"
+msgstr ""
+
+#: includes/log.php:98
+msgid "Service temporarily unavailable"
+msgstr ""
+
+#: includes/log.php:100
+msgid "Unexpected error"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:310
+#: includes/lynbro-core/lynbro-core.php:311
+msgid "Our plugins"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:467
+msgid "Image Optimizer"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:468
+msgid ""
+"Convert to WebP and AVIF, right-size oversized images and lazy-load them — "
+"all on your own server."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:471
+msgid "AI Studio"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:472
+msgid ""
+"Write and illustrate posts with AI on your own OpenAI key — at cost, with no "
+"credits in between."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:475
+msgid "Analytics"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:476
+msgid ""
+"Self-hosted, cookieless analytics with funnels. Visitor data never leaves "
+"your database."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:479
+msgid "Tags"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:480
+msgid ""
+"GA4, Tag Manager, Google Ads, Meta Pixel and more without code — each tag "
+"waits for consent."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:483
+msgid "Forms"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:484
+msgid ""
+"Forms with entries saved for free and no cap, conditional logic checked "
+"server-side, and signed webhooks."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:487
+msgid "Verify"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:488
+msgid ""
+"Catch mistyped e-mail domains and bad phone numbers, and confirm them with a "
+"one-time code by e-mail or SMS."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:491
+msgid "Cache"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:492
+msgid ""
+"Reliable purging for an nginx FastCGI cache and a Redis object cache, with "
+"every purge verified against the cache itself."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:495
+msgid "Translate"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:496
+msgid ""
+"Run your site in several languages, with machine translation on your own "
+"OpenAI key — nothing metered, nothing sold by the word."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:499
+msgid "Shield"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:500
+msgid ""
+"Security headers, HTTPS with HSTS, a small firewall against injection probes "
+"and the hardening switches every site needs."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:503
+msgid "Anti-Spam"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:504
+msgid ""
+"Spam checks that run on your own server. No account, no subscription, every "
+"block says why — and a held message is never lost."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:507
+msgid "Login Guard"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:508
+msgid ""
+"Move wp-login.php, limit failed sign-ins and add app-based two-factor — with "
+"three ways back in."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:511
+msgid "Cookie Consent"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:512
+msgid ""
+"A GDPR and ePrivacy banner with Consent Mode v2, an equally prominent Reject "
+"button and 35 languages."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:515
+msgid "Activity Log"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:516
+msgid ""
+"Who did what, when and from where — written down on your own server, "
+"searchable, exportable, and deleted on your schedule."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:519
+msgid "Data Retention"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:520
+msgid ""
+"Find where personal data actually sits in your database, then delete it on a "
+"schedule — with a dry run before every deletion."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:523
+msgid "Accessibility"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:524
+msgid ""
+"Scan every page against WCAG 2.2 AA and fix what can be fixed safely. No "
+"overlay, no page limit."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:527
+msgid "SEO"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:528
+msgid ""
+"Lean SEO with free LocalBusiness schema, sitemaps and social cards. Nothing "
+"phones home."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:531
+msgid "SMTP Mailer"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:532
+msgid ""
+"WordPress email through your own SMTP server — with an email log, resend, a "
+"backup connection and failure alerts."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:535
+msgid "Social Feed"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:536
+msgid ""
+"An Instagram feed on your site without a Meta token stored in WordPress."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:539
+msgid "Reviews Cache"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:540
+msgid "Show your Google reviews without putting an API key in WordPress."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:543
+msgid "Links"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:544
+msgid ""
+"Find broken links and manage redirects on your own server, with the reason "
+"for every verdict."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:547
+msgid "Danadresse Autofill"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:548
+msgid ""
+"Danish address autocomplete and validation for WooCommerce, WPForms, "
+"Gravity, Fluent, Formidable and EDD."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:551
+msgid "Soge Lookup"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:552
+msgid ""
+"Look up Danish vehicles (DMR) and companies (CVR) by plate, VIN or CVR "
+"number."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:555
+msgid "CVR Checkout"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:556
+msgid ""
+"Danish B2B checkout for WooCommerce: CVR company autofill, CVR/EU-VAT (VIES) "
+"validation and an EAN/GLN field."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:559
+msgid "Danish Shipping"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:560
+msgid ""
+"Free pickup point selection for PostNord and GLS Denmark at the WooCommerce "
+"checkout, plus clean shipping methods."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:563
+msgid "API Auth"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:564
+msgid ""
+"JSON Web Tokens for the REST API that you can actually revoke, with scopes "
+"and a journal of refusals."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:775
+msgid "Lynbro plugins"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:776
+msgid ""
+"Generous, privacy-first WordPress plugins — built in Denmark. Free cores, no "
+"credits, your data stays on your site."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:783
+msgid "More from Lynbro"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:784
+msgid ""
+"The rest of the suite. What is already on this site is marked; nothing "
+"installs without you asking for it."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:808
+msgid "Active"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:810
+msgid "Installed"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:812
+msgid "On WordPress.org"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:814
+msgid "Coming soon"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:821
+msgid "Activate"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:823
+#: includes/lynbro-core/lynbro-core.php:1447
+msgid "Install now"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:826
+#: includes/lynbro-core/lynbro-core.php:1451
+msgid "View on WordPress.org"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:828
+#: includes/lynbro-core/lynbro-core.php:1453
+msgid "Learn more"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:837
+msgid "About Lynbro"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:838
+msgid ""
+"Lynbro builds genuinely free, privacy-first WordPress plugins with generous "
+"free cores — no credits, no paywalls on the essentials, your data on your "
+"own site. Made in Denmark."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:840
+msgid "Visit Lynbro"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:841
+msgid "Suggest a feature or report a bug"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:843
+msgid ""
+"Feedback opens our public roadmap on plugins.lynbro.dk in a new tab — "
+"nothing is sent from your site."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:869
+#, php-format
+msgid ""
+"Shared Lynbro components v%1$s, provided by %2$s (newest of %3$d versions on "
+"this site)."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1334
+#, php-format
+msgid "Is %s doing its job?"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1338
+msgid ""
+"You have used it for a couple of weeks now. If it works for you, a short "
+"review on WordPress.org helps other site owners find it — honest ones, "
+"critical ones included."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1340
+msgid ""
+"You have used it for a couple of weeks now. If it works for you — or if "
+"something is missing — tell us on our public roadmap. That is how we decide "
+"what to build next."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1345 includes/onboarding.php:85
+msgid "Write a review"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1345
+#: includes/lynbro-core/lynbro-core.php:1347
+#: includes/lynbro-core/lynbro-core.php:1353
+#: includes/lynbro-core/lynbro-core.php:1451
+#: includes/lynbro-core/lynbro-core.php:1453
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1347
+msgid "Share feedback"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1349
+msgid "Maybe later"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1350
+msgid "Don't ask again"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1353
+msgid "Something not working? Ask for help"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1407
+msgid "WooCommerce is active"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1408
+msgid "a form plugin is active"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1409
+msgid "the site is set up for Denmark"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1410
+msgid "comments are open"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1411
+msgid "tracking tags are active"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1412
+msgid "visitors can create accounts"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1421
+msgid "Suggested because %l."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1475
+#: includes/lynbro-core/lynbro-core.php:1506
+msgid "Suggested for this site"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1476
+msgid "Hide suggestions"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1478
+msgid ""
+"Other Lynbro plugins that fit what this site uses. Nothing is installed "
+"unless you click."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1479
+msgid "All Lynbro plugins"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1507
+msgid ""
+"Picked from what this site already uses — read on this site, nothing is sent "
+"anywhere."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1627
+msgid ""
+"Export this plugin&#8217;s settings as a JSON backup, or reset them to "
+"defaults. 100% local — nothing leaves your site."
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1633
+msgid "Export settings (JSON)"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1635
+msgid "Reset all settings to defaults?"
+msgstr ""
+
+#: includes/lynbro-core/lynbro-core.php:1639
+msgid "Reset to defaults"
+msgstr ""
+
+#: includes/onboarding.php:81
+msgid ""
+"Has Lynbro Danadresse been useful on your site? A few words on WordPress.org "
+"help other Danish shops find it."
+msgstr ""
+
+#: includes/onboarding.php:87
+msgid "No thanks"
+msgstr ""
+
+#: includes/woocommerce.php:99
+msgid ""
+"We could not recognise this Danish address. Please check the street, number "
+"and postal code."
+msgstr ""
+
+#: includes/woocommerce.php:184
+msgid "Address verified (exact match)"
+msgstr ""
+
+#: includes/woocommerce.php:185
+msgid "Address verified (close match)"
+msgstr ""
+
+#: includes/woocommerce.php:186
+msgid "Address not recognised"
+msgstr ""
+
+#: public/block-editor.js:43
+msgid "Field settings"
+msgstr ""
+
+#: public/block-editor.js:45
+msgid "Field name"
+msgstr ""
+
+#: public/block-editor.js:50
+msgid "Label"
+msgstr ""
+
+#: public/block-editor.js:55
+msgid "Placeholder"
+msgstr ""
+
+#: public/block-editor.js:60
+msgid "Required"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: lynbro-danadresse.php
+msgid "Lynbro Danadresse"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: lynbro-danadresse.php
+msgid "https://plugins.lynbro.dk/lynbro-danadresse"
+msgstr ""
+
+#. Description of the plugin
+#: lynbro-danadresse.php
+msgid "Typo-tolerant Danish address autocomplete and validation (DAWA-compatible) that autofills WooCommerce and every major form builder — powered by danadresse.dk."
+msgstr ""
+
+#. Author URI of the plugin
+#: lynbro-danadresse.php
+msgid "https://lynbro.dk"
+msgstr ""
